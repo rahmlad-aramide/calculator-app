@@ -1,23 +1,52 @@
 :root{
-    /* Backgrounds */
-    /* VDS: Very dark saturated  */
-    --vds-blue-main-background: hsl(222, 26%, 31%);
-    --vds-blue-toggle-background: hsl(223, 31%, 20%); 
-    --keypad-background: hsl(223, 31%, 20%);
+    /* Global color white */
+    --white: hsl(0, 0, 100%);
+
+    /*------------ Backgrounds -------------*/
+    
+    /*------------ Theme 1 -------------*/
+    /* VDS: Very dark saturated blue colors */
+    --theme1-main-background: hsl(222, 26%, 31%);
+    --theme1-toggle-background: hsl(223, 31%, 20%); 
+    --theme1-keypad-background: hsl(223, 31%, 20%);
+    --theme1-screen-background: hsl(224, 36%, 15%);
     
      /* Keys */
     /* DD: Desaturated dark | Blue colors */
-    --dd-blue-key-background: hsl(225, 21%, 49%);
-    --dd-blue-key-shadow: hsl(224, 28%, 35%);
+    --theme1-blue-key-background: hsl(225, 21%, 49%);
+    --theme1-blue-key-shadow: hsl(224, 28%, 35%);
     /* Red colors */
-    --red-key-background: hsl(225, 21%, 49%);
-    --dark-red-key-shadow: hsl(224, 28%, 35%);
+    --theme1-red-key-background: hsl(225, 21%, 49%);
+    --theme1-dark-red-key-shadow: hsl(224, 28%, 35%);
     /* LG: Light grayish | G: grayish | Grayish colors */
-    --lg-orange-key-background: hsl(30, 25%, 89%);
-    --g-orange-key-shadow: hsl(28, 16%, 65%);
+    --theme1-orange-key-background: hsl(30, 25%, 89%);
+    --theme1-orange-key-shadow: hsl(28, 16%, 65%);
 
     /* Text */
-}
+    --theme1-text-grayish-blue: hsl(221, 14%, 31%);
+
+    /*------------ Theme 2 -------------*/
+    /* Grayish colors LG | VLG */
+    --theme2-main-background: hsl(0, 0%, 90%);
+    --theme2-toggle-background: hsl(0, 5%, 81%); 
+    --theme2-keypad-background: hsl(0, 5%, 81%);
+    --theme2-screen-background: hsl(0, 0%, 93%);
+    
+     /* Keys */
+    /* DM|VD: Dark moderate | Very dark | Cyan colors */
+    --theme2-blue-key-background: hsl(185, 42%, 37%);
+    --theme2-blue-key-shadow: hsl(185, 58%, 25%);
+    /* Orange colors */
+    --theme2-orange-key-background: hsl(25, 98%, 40%);
+    --theme2-dark-orange-key-shadow: hsl(25, 99%, 27%);
+    /* LG: Light grayish | DG: Dark grayish | Yellow & Orange colors */
+    --theme2-yellow-key-background: hsl(45, 7%, 89%);
+    --theme2-orange-key-shadow: hsl(35, 11%, 61%);
+
+    /* Text */
+    --theme2-text-grayish-yellow: hsl(60, 10%, 19%);
+    
+}   
 *{
     margin: 0;
     padding: 0;

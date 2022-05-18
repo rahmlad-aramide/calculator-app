@@ -1,0 +1,28 @@
+:root{
+    /* Backgrounds */
+    /* VDS: Very dark saturated  */
+    --vds-blue-main-background: hsl(222, 26%, 31%);
+    --vds-blue-toggle-background: hsl(223, 31%, 20%); 
+    --keypad-background: hsl(223, 31%, 20%);
+    
+     /* Keys */
+    /* DD: Desaturated dark | Blue colors */
+    --dd-blue-key-background: hsl(225, 21%, 49%);
+    --dd-blue-key-shadow: hsl(224, 28%, 35%);
+    /* Red colors */
+    --red-key-background: hsl(225, 21%, 49%);
+    --dark-red-key-shadow: hsl(224, 28%, 35%);
+    /* LG: Light grayish | G: grayish | Grayish colors */
+    --lg-orange-key-background: hsl(30, 25%, 89%);
+    --g-orange-key-shadow: hsl(28, 16%, 65%);
+
+    /* Text */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }

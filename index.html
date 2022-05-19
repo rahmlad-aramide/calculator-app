@@ -5,16 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap" rel="stylesheet">
 
+  <title>Frontend Mentor | Calculator app</title>
+  <!-- <link rel="script" href="script.js"> -->
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <main>
+  <main class="main">
+    <div class="head">
+      <div class="app-name"> <h1>calc</h1></div>
+
+      <div class="toggle-section">
+        <div class="theme">THEME</div>
+        <div class="numbers-button">
+          <div class="theme-numbers">
+            <span class="toggle-number num-1">1</span>
+            <span class="toggle-number num-2">2</span>
+            <span class="toggle-number num-3">3</span>
+          </div>
+          <div class="toggler">
+            <div class="button first"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="calculator">
+
     
+    <div class="screen">
+      <h3 class="screen-content">0</h3>
+    </div>
+    <div class="keypad">
+      <button data-number class="key num-key">7</button>
+      <button data-number class="key num-key">8</button>
+      <button data-number class="key num-key">9</button>
+      <button data-action="delete" class="key del-key">DEL</button>
+      <button data-number class="key num-key">4</button>
+      <button data-number class="key num-key">5</button>
+      <button data-number class="key num-key">6</button>
+      <button data-action="add" class="key plus-key">+</button>
+      <button data-number class="key num-key">1</button>
+      <button data-number class="key num-key">2</button>
+      <button data-number class="key num-key">3</button>
+      <button data-action="subtract" class="key minus-key">-</button>
+      <button data-action="decimal" class="key dot-key">.</button>
+      <button data-number class="key num-key">0</button>
+      <button data-action="divide" class="key divide-key">/</button>
+      <button data-action="multiply" class="key multiply-key">&times;</button>
+      <button data-action="reset" class="key reset-key">RESET</button>
+      <button data-action="calculate" class="key equal equal-key">=</button>
+    </div>
+  </div>
   </main>
-
-
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://rahmlad-aramide.github.io/my-portfolio">Abdrahman Oladimeji</a>.
